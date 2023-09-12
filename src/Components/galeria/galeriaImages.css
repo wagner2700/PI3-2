@@ -1,0 +1,20 @@
+.verMais{
+    position:absolute ;
+    right: 80px;
+    top: 550px;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #1dbeb4;
+    padding: 1.5px;
+    /* color: white; */
+    
+    
+}
+.imagens{
+    overflow-x:scroll;
+    scroll-behavior: smooth;
+    height: 80px;
+    margin-bottom: 5px;
+}

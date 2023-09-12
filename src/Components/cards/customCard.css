@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+ *{
+    font-family: 'Roboto', sans-serif;
+    color: #383B58; 
+ }
+
+ .text-start{
+    font-weight: 700;
+    font-size: 1.7em;
+    
+ }
+
+ .text-truncate{
+    font-weight: 500;
+    padding: 10px;
+ }
+
+ .flex-nowrap{
+    font-weight: 700;
+    opacity: 70%;
+ }
+ .md-auto{
+    font-size: 14px;
+ }
+.cardSub{
+    opacity: 50%;
+}
+
+.cardTitle{
+    font-weight: 700;
+}
+
+
+
+
+@media screen and (max-width: 1230px){
+.rounded-top-4{
+   display: none;
+}
+}
+
+
+@media screen and (max-width: 1030px){
+   div{
+      font-size: 12px;
+
+   }
+}

@@ -1,0 +1,66 @@
+.navContainer{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    color: #1DBEB4;
+    background-color: #FFFFFF;
+    z-index: 10;
+}
+
+.slogan{
+    font: Roboto;
+    font-weight: 300;
+    font-style: italic;
+    size: 20px;
+    line-height: 23.44px;
+    color: #545776;
+}
+
+.logoSlogan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+    gap: 1rem;
+}
+.navItems{
+    margin-right: 2.5rem;
+}
+
+.navButton{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    margin-right: 20px;
+    border: 1px solid #1DBEB4;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #1DBEB4;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navButton:hover{
+    border: 1px solid #1DBEB4;
+    color: #1DBEB4;
+    
+}
+
+.navButton:active{
+    color: #FFFFFF;
+    background-color: #1DBEB4;
+}
+
+
+
+@media screen and (max-width: 1130px){
+    .slogan{
+        display: none;
+    }
+}

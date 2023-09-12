@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+.tituloProduto{
+    color: #383b58;
+    font-size: 24px;
+}
+.caracteristicas{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-around;
+    justify-content:space-between;
+    font-size: 14px;
+    font-weight: 500;   
+    line-height: 16px;
+    
+}
+.caracteristicas span{
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    width: 28%;
+    white-space: nowrap;
+    text-align:justify;
+    gap: 30px;
+    font-size: 1.4em;
+}
+.caracteristicas svg{
+    fill: #1dbeb4;
+    
+}
+.caracteristicasContainer{
+    text-align: left;
+    flex-grow: 1;
+}
+.descricaoProduto{
+    font-size: 14px; 
+}
+.datasPossiveisContainer{
+    background-color: #ececef;
+    width: 100%;
+    margin: 0;
+    padding: 3rem;
+}
+
+.calendario{
+    width: 80%;
+    
+}
+
+.cardReserva{
+    background-color: #ffffff;
+    height: 150px;
+    border-radius: 5px;
+    width: 410px;
+    height: 149px;
+    font-size: 16px;
+    align-self: center;
+}
+.cardReserva .button{
+    width: 378.66px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.tituloInfo{
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 90px;
+}
+
+.infos{
+    margin-left: 3rem;
+    font-size: 0.8em;
+
+}
+
+@media screen and (max-width: 1095px){
+    .datasDisponiveis{
+        flex-direction: column ;
+        padding: 5%;      
+        align-items: center;  
+    }
+    .calendario{
+        width: 60%;
+    }
+    .infos{
+        margin-right: 0;
+        margin-left: 3rem;
+        font-size: 1em;
+    
+    }
+}
+    

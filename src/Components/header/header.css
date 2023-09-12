@@ -1,0 +1,147 @@
+.header{
+    width: 100%;
+    background-color: #545776;
+    /* height: 150px; */
+    height: 19vh;
+    position: fixed;
+    justify-self:flex-start ;
+    z-index: 10;
+    align-items: center;
+    margin-top: -10px;
+    /* padding-top: 1.4%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header.produto{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    position: unset;
+    padding: 0;
+    
+}
+.subInfos{
+    background-color: #eeeef1;
+    width: 100%;
+    height: 5.9rem;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* flex: 3 1 50px; */
+}
+.subInfos h2 {
+    font-size: 10px;
+    color: pink;
+}
+.localizacaoInfo{
+    margin-left: 40px;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+.localizacaoInfo svg, .localizacaoInfo p{
+    margin: 0;
+}
+.classificacaoInfo{
+    /* width: 15vw; */
+    margin: 0 60px 0 0;
+}
+.categoriaProduto{
+    width: 100%;
+    padding-top: 10px;
+}
+.nomeCategoria, .nomeProduto {
+    width: 80%;
+    text-align: left;
+    margin: 0 0 0 40px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.nomeProduto{
+    font-size: 24px;
+}
+.nomeCategoria{
+    font-size: 14px;
+}
+
+.hText{
+    font: Roboto;
+    font-weight: 700;
+    font-size: 2.3em;
+    line-height: 42.19px;
+    color: #ffffff;
+    text-align: center;
+    /* margin: 1.5rem; */
+}
+.hForm{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;  
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.datePicker{
+    width: 23vw;
+    margin: 0;
+}
+
+.header-input{
+    font-size: large;
+    margin-right: 0.3rem;
+    width: 23vw;
+    padding: 0.8rem;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+  }
+  .react-datepicker-wrapper, .react-datepicker__tab-loop{
+    margin: 0;
+    padding: 0;
+    
+}
+.react-datepicker__input-container .react-datepicker__calendar-icon {
+    z-index: 9;
+    padding: 0 !important;
+    margin: 0.6rem 0.3rem;
+    fill: #c4c6d4;
+}
+
+
+.hiden{
+    display: none;
+}
+
+@media screen and (max-width: 830px){
+    .hText {
+        /* display: none; */
+    }
+
+    /* .header{
+        display: flex;
+        width: 100%;
+        background-color: #545776;
+        height: 151px;
+        z-index: 10;
+        align-items: center;
+        padding: 10px;
+    } */
+    .header {
+        height: 22vh;
+    }
+    .hForm{
+        display: flex;
+        justify-content: center;
+        /* font-size: 1.6em; */
+    }
+    .header-input {
+        font-size: 1.1em;
+    }
+}
